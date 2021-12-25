@@ -1,0 +1,45 @@
+.jumbotron {
+    padding: 0;
+    background-image: url("../images/jumbotron.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:613px ;
+}
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 613px;
+    background-color:rgba(0, 0, 0, 0.5) ;
+    position: absolute;
+    top: 0;
+}
+.jumbotron .container {
+    position: relative;
+    z-index: 1;
+}
+
+.jumbotron .container h1 {
+    color: white;
+    margin-top: 130px;
+    font-family: 'Montserrat', sans-serif, monospace;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.6);
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+.jumbotron .container span {
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif, monospace;
+}
+
+.jumbotron .container .lead {
+    color: white;
+}
+
+.jumbotron .container {
+    margin-bottom: -100px;
+}
