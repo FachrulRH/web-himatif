@@ -13,6 +13,7 @@
       rel="stylesheet"
       href="assets/vendor/bootstrap/css/bootstrap.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
 
@@ -70,7 +71,9 @@
     </div>
 
     <!-- JUMLAH ANGGOTA -->
-    <div class="container shadow shadow-lg mb-5 bg-white jumlah-anggota">
+    <div data-aos="zoom-in"
+         data-aos-easing="linear"
+         data-aos-duration="1000" class="container shadow shadow-lg mb-5 bg-white jumlah-anggota">
       <h1 class="display-4 text-center">Jumlah Anggota</h1>
       <div class="mt-4 d-flex justify-content-around">
         <!-- 2018 -->
@@ -117,11 +120,12 @@
     <!-- VISI MISI -->
     <div class="container-fluid visi-misi d-flex justify-content-center">
       <div class="d-flex align-items-center justify-content-around w-75">
-        <div class="row mr-5">
+        <div data-aos="fade-right" data-aos-easing="linear"
+             data-aos-duration="1000" class="row mr-5">
           <img src="./assets/images/motivation.png" alt="MOTIVATION" />
         </div>
-        <div class="col-6">
-          <h1>Tujuan</h1>
+        <div data-aos="fade-left" class="col-6">
+          <h1 class="text-center">Tujuan</h1>
           <ul>
             <li>
               Meningkatkan kualitas Mahasiswa Program Studi Informatika melalui
@@ -168,8 +172,14 @@
         align-items-center
       "
     >
-      <h1 class="text-center font-weight-bold">Galeri</h1>
-      <p class="text-center m-3">
+      <h1 class="text-center font-weight-bold"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000">Galeri</h1>
+      <p class="text-center m-3"
+         data-aos="fade-down"
+         data-aos-easing="linear"
+         data-aos-duration="1000">>
         Dokumentasi seluruh kegiatan HIMATIF, termasuk program kerja, foto
         bersama dan lain-lain.
       </p>
@@ -178,6 +188,9 @@
           <div class="col-sm gallery-image">
             <a href="">
               <img
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
                 src="./assets/images/galeri1.JPG"
                 alt=""
                 class="img-thumbnail"
@@ -188,6 +201,9 @@
           <div class="col-sm gallery-image">
             <a href="">
               <img
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
                 src="./assets/images/galeri2.JPG"
                 alt=""
                 class="img-thumbnail"
@@ -198,6 +214,9 @@
           <div class="col-sm gallery-image">
             <a href="">
               <img
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
                 src="./assets/images/galeri3.JPG"
                 alt=""
                 class="img-thumbnail"
@@ -207,7 +226,7 @@
           </div>
         </div>
       </div>
-      <button type="button" class="mybtn mt-5">Lihat</button>
+      <button data-aos="zoom-in" type="button" class="mybtn mt-5">Lihat</button>
     </div>
 
     <!-- Artikel -->
@@ -223,10 +242,10 @@
         mb-lg-5
       "
     >
-      <h1 class="font-weight-bold text-center">Artikel</h1>
+      <h1 data-aos="zoom-in" class="font-weight-bold text-center">Artikel</h1>
       <div class="splide">
         <div class="splide__track">
-          <ul class="splide__list container">
+          <ul class="splide__list container" >
             <li class="splide__slide">
               <div
                 class="
@@ -236,7 +255,7 @@
                   align-items-center
                 "
               >
-                <div class="card">
+                <div class="card" >
                   <img
                     class="card-img-top"
                     src="assets/images/jumbotron.jpg"
@@ -396,7 +415,11 @@
     </div>
 
     <!-- Contact -->
-    <div id="kontak" class="container d-flex shadow shadow-lg contact">
+    <div data-aos="zoom-in"
+         data-aos-anchor-placement="center-bottom"
+         data-aos-easing="linear"
+         data-aos-duration="1000"
+         id="kontak" class="container d-flex shadow shadow-lg contact">
       <div class="d-flex justify-content-center flex-column">
         <h2>Kontak Kami</h2>
         <h6 class="font-weight-bold text-secondary">
@@ -440,5 +463,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-intersection@0.1.3/dist/js/splide-extension-intersection.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.9/dist/js/splide.min.js"></script>
     <script src="assets/js/splide.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript">
+      AOS.init();
+    </script>
   </body>
 </html>
