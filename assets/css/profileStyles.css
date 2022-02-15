@@ -1,0 +1,70 @@
+@import url('/assets/css/globalStyles.css');
+
+/* Navbar */
+.navbar-nav .nav-item .nav-link {
+    color: black;
+}
+
+/* Path */
+.path {
+    font-size: var(--font-normal);
+    font-weight: bold;
+    color: #4F5665;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Content Border */
+.content-border {
+    border: 2px solid #FFBF1A;
+    border-radius: 5px;
+}
+
+.content {
+    margin: auto;
+    padding: 50px;
+}
+
+.content h5 {
+    font-size: var(--font-med);
+    color: black;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* Profile */
+.content .profile img {
+    width: 150px;
+    height: auto;
+}
+
+.content .profile p {
+    font-size: var(--font-normal);
+    font-weight: normal;
+    padding: 0 20px;
+}
+
+.content .visi-misi li {
+    font-weight: normal;
+}
+
+/* Struktur Organisasi */
+.struktur {
+    margin: auto;
+}
+
+.struktur h3 {
+    margin: 40px 0;
+    font-size: var(--font-big);
+    color: black;
+    font-weight: bold;
+}
+
+.struktur .border-image {
+    width: auto;
+    height: 500px;
+    border: 1px solid #CECECE;
+    border-radius: 4px;
+}
+

@@ -1,0 +1,18 @@
+.navbar-brand img {
+    height: 55px;
+    width: auto;
+}
+
+.nav-link {
+    font-size: var(--font-normal);
+}
+
+.navbar-nav .nav-item .active::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #FFBF1A;
+    border-radius: 1px;
+    width: 60%;
+    padding-bottom: 5px;
+    margin: auto auto -8px;
+}
