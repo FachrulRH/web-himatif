@@ -166,28 +166,24 @@
 /* Pagination Slider End */
 
 /* Kontak */
-.contact {
-  margin-top: 200px;
+.comment {
+  margin-top: 50px;
   padding: 55px 70px;
 }
 
-.contact h1 {
+.comment h1 {
   font-size: var(--font-big);
   font-weight: bold;
 }
 
-.contact .d-flex {
-  flex: 3;
+.comment .d-flex {
+  flex: 2;
 }
 
-.contact p {
-  font-size: 14px;
+.comment .well {
+  font-size: 30px;
 }
 
-.containerSocialIcons a img {
-  width: 70px;
-  height: 70px;
-}
 /* Kontak End*/
 
 /* Footer */
